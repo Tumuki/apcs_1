@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i;
+    int sutd_num=45;
+    for (i=0;i<10;i++){
+        switch(i % 3){
+            case 0:
+            printf("%d. hello world %d students \n ",0, sutd_num);
+            break;
+            case 1:
+            printf("%d. hello world %d students \n ",1, sutd_num);
+            break;
+            case 2:
+            printf("%d. hello world %d students \n ",2, sutd_num);
+            break;
+        }
+        
+    }
+    return 0;
+}
